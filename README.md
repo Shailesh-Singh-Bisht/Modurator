@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 Modurator
 
-## Getting Started
+**Modurator** is a sleek, fast, and minimalist website built to help modders easily discover curated **modlists** for Bethesda games — like *Skyrim*, *Fallout*, *Oblivion*, and more.
 
-First, run the development server:
+Instead of digging through forums, Nexus comments, or scattered Reddit posts, Modurator serves as a clean, community-centered hub to browse handpicked, high-quality modlists — all linking back to the original creators.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Purpose
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Modurator solves a simple but frustrating problem: finding **reliable modlists** without wading through chaos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 📚 No individual mods, just full curated **modlists**
+- 🔗 Every list links back to the creator’s original site (Nexus, GitHub, Reddit, etc.)
+- 🧼 No downloads, no logins, no ads — just clarity
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Features (WIP)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🎮 Game-specific areas with unique background + color theme
+- 🧩 Curated modlist cards with tags, previews, and details
+- 🔎 Filterable search system (e.g., Vanilla+, Overhaul, Survival, Visual)
+- 🧰 Learning section with guides and tools for new modders
+- 🚫 No user login, no comments, no tracking bloat
+- 🔗 Fully ethical — no pirated content, paywalls, or stolen mods
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Area | Tech |
+|------|------|
+| Frontend | Next.js (App Router), React |
+| Styling | TailwindCSS, Shadcn/ui |
+| Backend | Next.js API Routes |
+| Database | PostgreSQL (via Neon), Prisma ORM |
+| Hosting | Vercel |
+| Analytics | [Vercel Analytics](https://vercel.com/analytics) |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ Setup
+
+> ⚠️ Full setup instructions will be added once development is underway.
+
+---
+
+## 🧙‍♂️ Creator
+
+Built with deep love for the modding world by **Adrian** — a developer, writer, and modding enthusiast.  
+All lists are **handpicked** to ensure quality over quantity.
+
+---
+
+## 📌 Status
+
+Modurator is in **early development**. First goals:
+- [ ] Finalize database schema
+- [ ] Set up backend API routes
+- [ ] Build Game & Modlist components
+- [ ] Deploy V1 with basic game pages
+
+---
+
+## 📃 License
+
+MIT (Open source once stable. Respect original mod authors and follow community guidelines.)
+
+---
+
+> Questions, feedback, or modlist suggestions?  
+> Pull requests will open after v1 release. Stay tuned!
